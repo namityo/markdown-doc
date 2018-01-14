@@ -13,7 +13,7 @@ Markdownで簡単なドキュメントを書く際のリポジトリです。
 ```bash
 git clone https://github.com/namityo/markdown-doc.git sample
 cd sample
-rm rf .git
+rm -rf .git
 npm install
 ```
 
