@@ -1,0 +1,21 @@
+{
+  "name": "markdown-doc",
+  "version": "1.0.0",
+  "description": "It is a markdown creation environment that can be converted to HTML.",
+  "scripts": {
+    "convert": "./node_modules/.bin/con-markdown-html -d --usercss ./css/user.css ./doc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namityo/markdown-doc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/namityo/markdown-doc/issues"
+  },
+  "homepage": "https://github.com/namityo/markdown-doc#readme",
+  "dependencies": {
+    "con-markdown-html": "github:namityo/con-markdown-html"
+  }
+}
